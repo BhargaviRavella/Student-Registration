@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>html form</title>
+</head>
+<body>
+  <center>
+  <table style="border:2px solid; background-color:aqua">
+    <form>
+        <tr>
+          <td>
+        <center><label><h3 style="color:black">Student Registration Form</h3></label></center><br><br></td></tr>
+    <tr><td><label>Name :</label>
+        <input placeholder="enter your full name" type="text"><br><br></td></tr>
+        <tr>
+          <td><label>Father's name :</label>
+        <input type="text"><br><br></td></tr>
+        <tr><td><label>Mother's name :</label>
+        <input type="text"><br><br></td></tr>
+        <td><label>phone number :</label>
+        <input type="tel" placeholder="000 000 0000" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" 
+        minlength="12" maxlength="12"><br><br></td></tr>
+        <td><label>Email :</label>
+        <input placeholder="example@gmail.com" type="email"><br><br></td></tr>
+        <tr><td><label>Gender :</label>
+  <label>male</label>
+  <input type="radio" name="a">
+  <label>female</label>
+  <input type="radio" name="a">
+  <label>others</label>
+  <input type="radio" name="a"><br><br></td></tr>
+  <tr><td><label>date of Birth :</label>
+  <input type="date"><br><br></td></tr>
+  <tr><td><label>Address :</label>
+  <input placeholder="street-area-locality" type="text"><br><br></td></tr>
+  <tr><td><label>blood group :</label>
+  <select>
+    <option>select</option>
+    <option>A+</option>
+    <option>B+</option>
+    <option>AB+</option>
+    <option>O+</option>
+    <option>A-</option>
+    <option>B-</option>
+    <option>AB-</option>
+    <option>O-</option>
+  </select><br><br></td></tr>
+  <tr><td><label>Department :</label>
+  <label>CSE</label>
+  <input type="radio" name="a">
+  <label>ECE</label>
+  <input type="radio" name="a">
+  <label>EEE</label>
+  <input type="radio" name="a">
+  <label>CIVIL</label>
+  <input type="radio" name="a"><br><br></td></tr>
+  <tr><td><label>Course :</label>
+  <label>C</label>
+  <input type="checkbox">
+  <label>C</label>
+  <input type="checkbox">
+  <label>C++</label>
+  <input type="checkbox">
+  <label>SQL</label>
+  <input type="checkbox">
+  <label>JAVA</label>
+  <input type="checkbox"><br><br></td></tr>
+  <tr><td rowspan="1"><label>photo :</label>
+  <input placeholder="upload file" type="file"><br><br></td></tr>
+  <tr><td><input type="submit">
+  <input type="reset"></td></tr>
+</form></table></center>
+</body>
+</html>
